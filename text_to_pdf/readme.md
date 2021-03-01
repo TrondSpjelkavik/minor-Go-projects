@@ -1,0 +1,1 @@
+A small Go project. Creating pdf from .txt files
