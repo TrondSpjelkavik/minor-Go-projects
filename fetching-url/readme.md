@@ -1,0 +1,1 @@
+fetching text from url. use ./fetch www.url.com in the terminal. 
