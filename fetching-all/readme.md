@@ -1,0 +1,3 @@
+fetching multiple urls, and returns the byte size
+
+./fetchall url1 url2 url3 url4 ......
