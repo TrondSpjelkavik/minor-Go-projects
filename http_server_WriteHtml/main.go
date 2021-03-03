@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"path"
 )
 
 func loadFile(fileName string) (string, error) {
@@ -19,7 +20,7 @@ func loadFile(fileName string) (string, error) {
 
 func handler(w http.ResponseWriter, r *http.Request) {
 
-	var html, err = loadFile("index.html")
+	var html, err = loadFile(path.Base(r.URL.EscapedPath()))
 
 	if err != nil {
 		w.WriteHeader(404)
@@ -34,5 +35,5 @@ func main() {
 
 	http.HandleFunc("/", handler)
 
-	http.ListenAndServe(":7043", nil)
+	http.ListenAndServe(":7011", nil)
 }
