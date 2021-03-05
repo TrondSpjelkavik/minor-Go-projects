@@ -1,3 +1,3 @@
 # Main.go emits a PNG image of the Mandelbrot fractal.
 
-Run command ./main.go >filename.png
+Run command go build main.go && ./main.exe >filename.png
