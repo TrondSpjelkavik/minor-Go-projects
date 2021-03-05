@@ -1,17 +1,35 @@
 
 
-	#Markdown template from Go
+	# Markdown template from Go
 
  + Hello
  + From
  + Template
 
 
- > Trond
- > Lene
- > Linn
- > Rune
- > Morten
- > Theo
+Trond
+
+--- 
+
+Lene
+
+--- 
+
+Linn
+
+--- 
+
+Rune
+
+--- 
+
+Morten
+
+--- 
+
+Theo
+
+--- 
+
 
 	
