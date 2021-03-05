@@ -9,7 +9,7 @@ import (
 func main() {
 	const markdown = `
 
-	# {{.Title}}
+# {{.Title}}
 
 {{range .Items}} + {{ . }}{{else}}- Nothing in Items{{end}}
 
